@@ -1,9 +1,11 @@
 body{
-    background-image: url(images/bgcover.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: black;
     background-position: center;
     color:hsl(184, 95%, 52%);
+    font-family: arial;
+    font-size: large;
+    text-align: centre;
+    
 }
 h1{
     text-shadow: 3px 3px 5px red,-3px 3px 5px hsl(300, 100%, 26%);
@@ -20,29 +22,25 @@ h2{
 }
 .forms{
     background-color: hsl(0, 0%, 100%);
-    box-shadow:3px 3px 5px;
+    box-shadow:3px 3px 5px red,-3px 3px 5px hsl(184, 95%, 52%);
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
-}
-#submitbtn{
-    background-color: hsl(300, 100%, 25%);
-    color: hsl(0, 0%, 100%);
-    size: 50px;
-}
-#resetbtn{
-    background-color:hsl(0, 100%, 50%);
-    color: hsl(0, 0%, 100%);
-    size: 50px;
     
+
+
+}
+.buttons{
+    background-color: hsl(0, 0%, 0%);
+    box-shadow: 3px 3px 5px red, -3px 3px 5px hsl(184, 95%, 52%);
+    color: hsl(0, 0%, 99%);
+    border-radius: 3px;
+    border: 1px;
+    block-size: 3em;
+    width: 6em;
 }
 label{
-    color:hsl(185, 86%, 3%);
-}
-#home{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
+    color: black;
+    block-size: 1em;
 }
