@@ -41,8 +41,16 @@ h2{
     border: 1px;
     block-size: 3em;
     width: 6em;
+    transition: background-color 0.25s;
+    cursor: pointer;
 }
 label{
     color: black;
     block-size: 1em;
+}
+#submitBtn:hover{
+    background-color: hsl(0, 1%, 37%);
+}
+#resetBtn:hover{
+    background-color: hsl(0, 1%, 37%);
 }
